@@ -1,0 +1,39 @@
+{
+  "name": "parking-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.27.2",
+    "@clerk/themes": "^1.7.9",
+    "@react-google-maps/api": "^2.19.2",
+    "@types/socket.io": "^3.0.2",
+    "@ubilabs/google-maps-react-hooks": "^2.0.2",
+    "@vis.gl/react-google-maps": "^0.4.0",
+    "eslint-config-prettier": "^9.0.0",
+    "next": "14.0.3",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
